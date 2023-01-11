@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: black;
+	margin: none;
+	padding: none;
+}
+
+.mobile-nav-icon {
+    border-radius: 0px;
+    background-color: #fff;
+    border: none;
+	padding: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+	position: fixed;
+	top: 0;
+	left: 0;
+    /*height: 40px;*/
+	width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: hsl(223, 64%, 98%);
+	font-size: 6pt;
+	letter-spacing: 0.2em;
+	font-weight: 900;
+	background-color: white;
+}
+
+#m-nav {
+    display: none;
+}
+
+#nav-logo-items {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    padding: 0px;
+    list-style-type: none;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    text-decoration: none;
+    padding: 0px 35px;
+    margin: 0px;
+	color: black;
+}
+
+nav a:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+	color: hsl(0, 0%, 60%);
+}
+
+.prev-collections {
+	margin: auto;
+	overflow: hidden;
+}
+
+.prev-collections li ul {
+	display: none;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+.prev-collections li:hover ul {
+	display: block;
+}
+
+/* MOBILE NAV */
+#m-nav {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+#mobile-nav {
+    background-color: #fff;
+    padding: 20px;
+    width: 60%;
+    height: 100%;
+}
+
+.close-contain {
+	width : 100%;
+	height: 50px;
+}
+
+.close {
+    color: #aaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.active-page {
+	color : hsl(0, 0%, 60%);
+    /*box-shadow: 0 1px 0 0 hsl(0, 0%, 60%); /* USE BOX SHADOW OFSET AT BOTTOM INSTEAD OF BORDER BOX TO HAVE THE HOVER STATE WITHOUT MOVING THE LI TEXT ON HOVER */
+
+}
+
+
+@media only screen and (max-width: 900px) {
+
+  /* NAV */
+    nav {
+        border-bottom: none;
+		justify-content: flex-start;
+    }
+	
+	.mobile-nav-icon {
+		display: block;
+	}
+
+    #mobile-menu {
+        display: block;
+        padding: 0px 10px;
+    }
+
+    #mobile-menu:hover {
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #m-nav-ul {
+        flex-direction: column;
+    }
+
+    li {
+        font-weight: 700;
+       /* padding-bottom: 15px;
+        height: 35px;*/
+    }
+	
+	li a {
+		padding: 0px 0px 0px 15px;
+	}
+
+    li:hover {
+        cursor: pointer;
+        box-shadow: none;
+        border: none;
+        transition: all 0.2s ease;
+    }
+	
+    .collections li {
+        margin: 0px 0px 10px 15px;
+}
+}

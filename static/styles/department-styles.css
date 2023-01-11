@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.go-to {
+	background-color: #f7f7f7;
+	padding: 20px;
+	font-size: 8pt;
+	letter-spacing: 0.1em;
+	font-weight: 900;
+    text-decoration: none;
+	color: black;
+}
+
+.go-to-collection {
+	display: flex;
+	justify-content: center;
+	margin: 60px 0px 10px 0px;
+}
+
+#style-container {
+	/*width: 100vw;*/
+	display: flex;
+	margin-top: 10px;
+	/*flex-wrap: wrap;*/
+	justify-content: center;
+	align-items: center;
+}
+
+.img-container {
+	margin: 10px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #f7f7f7;
+	height: 520px;
+	width: 500px;
+}
+
+.img-style {
+	height: 520px;
+	width: 400px;
+    object-fit: contain;
+}
+
+.desc-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.description {
+	margin: 0px 20px;
+	width: 460px;
+	word-wrap: break-word;
+}
+
+.style-desc {
+	letter-spacing: 0.15em;
+	font-weight: 200;
+	font-size: 12pt;
+	width: 360px;
+	word-wrap: break-word;
+}
+
+.style-code {
+	letter-spacing: 0.15em;
+	font-weight: 700;
+	font-size: 7pt;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+#prev, #next {
+    cursor: pointer;
+    /*position: fixed;
+    /*top: 50%;*/
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    /*color: white;*/
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+/*.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}*/
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.mySlides {
+		width: 250px;
+        height: 320px;
+	}
+	
+	.img-container {
+		width: 250px;
+        height: 320px;
+		margin: 0px;
+	}
+	
+	.img-style {
+		width: 200px;
+        height: 320px;
+	}
+	
+	.description {
+		width: 210px;
+	}
+	
+	.desc-container {
+		width: 210px;
+	}
+	
+	.style-desc {
+		width: 210px;
+		word-wrap: break-word;
+	}
+}
+
+
+
