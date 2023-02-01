@@ -15,10 +15,6 @@
 	display: none;
 }
 
-.m-place-image {
-	width: 100vw;
-}
-
 
 /*
 #home-contain {
@@ -92,21 +88,27 @@
 #shoot1 {
 	width: 100vw;
 }
-
 */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 920px) {
 
  	
 	.m-placeholder {
-		display: block;
+		display: flex;
 	}
 	
 	.placeholder {
 		display: none;
 	}
 	
-	/*
+	.place-image {
+		display: none;
+	}
 	
+    .m-place-image {
+        width: 100vw;
+    }
+	
+	/*
 	#hp-df1, #hp-df3 {
         font-size: 12pt;
         letter-spacing: 0.3em;
@@ -154,7 +156,8 @@
         height: 210px;
         object-fit: contain;
     }*/
-}
+} 
+
 /*
 @media only screen and (max-width: 700px) {
 	

@@ -8,69 +8,279 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 <title>Daniel Footwear Look Book</title>
 <link rel="stylesheet" href="static/styles/styles.css">
-<link rel="stylesheet" href="static/styles/index-styles.css">
+<link rel="stylesheet" href="static/styles/collection-styles.css">
 </head>
 
 <body>
-	 <header>
-      <nav>
-        <div>
-          <button class="btn mobile-nav-icon">
-            <img src="static/images/icon-menu.svg" alt="menu" id="mobile-menu">
-          </button>
-        </div>
-        <div id="nav-logo-items">
-          <div id="nav-item-div">
-            <ul  class="prev-collections" id="desktop-nav">
-              <li><a href="#" class="active-page">HOME</a></li>
-              <!--<li><a href="sandals.html">SANDALS</a></li>
-              <li><a href="trainers.html">TRAINERS</a></li>
-              <li><a href="heels.html">HEELS</a></li>
-              <li><a href="flats.html">FLATS</a></li>
-              <li><a href="boots.html">BOOTS</a></li>
-              <li><a href="handbags.html">HANDBAGS</a></li>
-              <li><a href="the-collection.html">THE COLLECTION</a></li>-->
-              <li><a href="#">PREVIOUS COLLECTIONS</a>
-                  <ul class="collections">
-                      <li><a href="aw22-the-collection.html">AW22 COLLECTION</a></li>
-				  </ul>
-              </li>
-              <li><a href="https://www.danielfootwear.com/" target="_blank">VISIT DANIELFOOTWEAR.COM</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <nav class="modal" id="m-nav">
-        <div id="mobile-nav">
-          <span class="close" id="close">&times;</span>
-          <br>
-          <br>
-          <ul  class="prev-collections" id="m-nav-ul">
-              <li><a href="#" class="active-page">HOME</a></li>
-              <!--<li><a href="sandals.html">SANDALS</a></li>
-              <li><a href="trainers.html">TRAINERS</a></li>
-              <li><a href="heels.html">HEELS</a></li>
-              <li><a href="flats.html">FLATS</a></li>
-              <li><a href="boots.html">BOOTS</a></li>
-              <li><a href="handbags.html">HANDBAGS</a></li>
-              <li><a href="the-collection.html">THE COLLECTION</a></li>-->
-              <li><a href="#">PREVIOUS COLLECTIONS</a>
-                  <ul class="collections">
-                      <li><a href="aw22-the-collection.html">AW22 COLLECTION</a></li>
-				  </ul>
-              </li>
-              <li><a href="https://www.danielfootwear.com/" target="_blank">VISIT DANIELFOOTWEAR.COM</a></li>
-          </ul>
-        </div>
-      </nav>
+    <header>
+        <nav>
+            <div>
+                <button class="btn mobile-nav-icon">
+                    <img src="static/images/icon-menu.svg" alt="menu" id="mobile-menu">
+                </button>
+            </div>
+            <div id="nav-logo-items">
+                <div id="nav-item-div">
+                    <ul class="prev-collections" id="desktop-nav">
+                        <li><a href="#" class="active-page">SS23 COLLECTION</a>
+                            <ul class="collections">
+                                <li><a href="ss23-sandals.html">SANDALS</a></li>
+                                <li><a href="ss23-trainers.html">TRAINERS</a></li>
+                                <li><a href="ss23-heels.html">HEELS</a></li>
+                                <li><a href="ss23-flats.html">FLATS</a></li>
+                                <li><a href="ss23-boots.html">BOOTS</a></li>
+                            </ul>
+                            <ul class="collections">
+                                <li><a href="ss23-bags.html">BAGS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">PREVIOUS COLLECTIONS</a>
+                            <ul class="collections">
+                                <li><a href="aw22-the-collection.html">AW22 COLLECTION</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://www.danielfootwear.com/" target="_blank">VISIT DANIELFOOTWEAR.COM</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="modal" id="m-nav">
+            <div id="mobile-nav">
+                <span class="close" id="close">&times;</span>
+                <br>
+                <br>
+                <ul class="prev-collections" id="m-nav-ul">
+                    <li><a href="#">SS23 COLLECTION</a>
+                        <ul class="collections">
+                            <li><a href="ss23-sandals.html">SANDALS</a></li>
+                            <li><a href="ss23-trainers.html">TRAINERS</a></li>
+                            <li><a href="ss23-heels.html">HEELS</a></li>
+                            <li><a href="ss23-flats.html">FLATS</a></li>
+                            <li><a href="ss23-boots.html">BOOTS</a></li>
+                            <li><a href="ss23-bags.html">BAGS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">PREVIOUS COLLECTIONS</a>
+                        <ul class="collections">
+                            <li><a href="aw22-the-collection.html">AW22 COLLECTION</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://www.danielfootwear.com/" target="_blank">VISIT DANIELFOOTWEAR.COM</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 	<main>
-      <div class="placeholder">
-          <img class="place-image" src="static/images/backgrounds/ss23-background-desktop.jpg" alt="SS23 Arriving Soon">
-      </div>
-      <div class="m-placeholder">
-          <img class="m-place-image" src="static/images/backgrounds/ss23-background-mobile.jpg" alt="SS23 Arriving Soon">
-      </div>
+        <div id="style-container">
+            
+            <div class ="img-container">
+                <img src="static/images/ACOURT-85-MUL.jpg" alt="Acourt 85 MUL" class="btn img-style">
+            </div>
+            <div class ="modal style-modal">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-contents">
+                    <div class="modal-img-contain">
+                        <img src="static/images/ACOURT-85-MUL.jpg" alt="Acourt 85 MUL" class="img-modal">
+                    </div>
+                    <div class="modal-description">
+                        <p class="style-desc">Acourt 85 Multicolour Glitter Court Shoes</p>
+                        <p class="style-code">ACOURT 85 MUL</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class ="img-container">
+                <img src="static/images/ACOURT-85-BKS.jpg" alt="Acourt 85 BKS" class="btn img-style">
+            </div>
+            <div class ="modal style-modal">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-contents">
+                    <div class="modal-img-contain">
+                        <img src="static/images/ACOURT-85-BKS.jpg" alt="Acourt 85 BKS" class="img-modal">
+                    </div>
+                    <div class="modal-description">
+                        <p class="style-desc">Acourt 85 Black Suede Court Shoes</p>
+                        <p class="style-code">ACOURT 85 BKS</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class ="img-container">
+                <img src="static/images/ACOURT-85-BEP.jpg" alt="Acourt 85 BEP" class="btn img-style">
+            </div>
+            <div class ="modal style-modal">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-contents">
+                    <div class="modal-img-contain">
+                        <img src="static/images/ACOURT-85-BEP.jpg" alt="Acourt 85 BEP" class="img-modal">
+                    </div>
+                    <div class="modal-description">
+                        <p class="style-desc">Acourt 85 Beige Patent Court Shoes</p>
+                        <p class="style-code">ACOURT 85 BEP</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class ="img-container">
+                <img src="static/images/ACOURT 65-BKS.jpg" alt="Acourt 65 BKS" class="btn img-style">
+            </div>
+            <div class ="modal style-modal">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-contents">
+                    <div class="modal-img-contain">
+                        <img src="static/images/ACOURT 65-BKS.jpg" alt="Acourt 65 BKS" class="img-modal">
+                    </div>
+                    <div class="modal-description">
+                        <p class="style-desc">Acourt 65 Black Suede Court Shoes</p>
+                        <p class="style-code">ACOURT 65 BKS</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class ="img-container">
+                <img src="static/images/ACOURT-65-RDS.jpg" alt="Acourt 65 RDS" class="btn img-style">
+            </div>
+            <div class ="modal style-modal">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-contents">
+                    <div class="modal-img-contain">
+                        <img src="static/images/ACOURT-65-RDS.jpg" alt="Acourt 65 RDS" class="img-modal">
+                    </div>
+                    <div class="modal-description">
+                        <p class="style-desc">Acourt 65 Red Suede Court Shoes</p>
+                        <p class="style-code">ACOURT 65 RDS</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class ="img-container">
+                <img src="static/images/AWESTY-BKL.jpg" alt="Awesty BKL" class="btn img-style">
+            </div>
+            <div class ="modal style-modal">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-contents">
+                    <div class="modal-img-contain">
+                        <img src="static/images/AWESTY-BKL.jpg" alt="Awesty BKL" class="img-modal">
+                    </div>
+                    <div class="modal-description">
+                        <p class="style-desc">Awesty Black Leather Western Ankle Boots</p>
+                        <p class="style-code">AWESTY BKL</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class ="img-container">
+                <img src="static/images/DICLOUD-BKL.jpg" alt="Dicloud BKL" class="btn img-style">
+            </div>
+            <div class ="modal style-modal">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-contents">
+                    <div class="modal-img-contain">
+                        <img src="static/images/DICLOUD-BKL.jpg" alt="Dicloud BKL" class="img-modal">
+                    </div>
+                    <div class="modal-description">
+                        <p class="style-desc">Dicloud Black Leather Chunky Chain Bag</p>
+                        <p class="style-code">DICLOUD BKL</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class ="img-container">
+                <img src="static/images/BELOAF-BLS.jpg" alt="Beloaf BLS" class="btn img-style">
+            </div>
+            <div class ="modal style-modal">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-contents">
+                    <div class="modal-img-contain">
+                        <img src="static/images/BELOAF-BLS.jpg" alt="Beloaf-BLS" class="img-modal">
+                    </div>
+                    <div class="modal-description">
+                        <p class="style-desc">Beloaf Blue Suede Loafers</p>
+                        <p class="style-code">BELOAF BLS</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class ="img-container">
+                  <img src="static/images/EPPIE-BKL.jpg" alt="Eppie BKL" class="btn img-style">
+            </div>
+            <div class ="modal style-modal">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-contents">
+                    <div class="modal-img-contain">
+                        <img src="static/images/EPPIE-BKL.jpg" alt="Eppie BKL" class="img-modal">
+                    </div>
+                    <div class="modal-description">
+                        <p class="style-desc">Eppie Black Leather Mid Heel Sling Backs</p>
+                        <p class="style-code">EPPIE BKL</p>
+                    </div>
+                </div>
+            </div> 
+
+            <div class ="img-container">
+                  <img src="static/images/ILASTY-GDL.jpg" alt="Ilasty GDL" class="btn img-style">
+            </div>
+            <div class ="modal style-modal">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-contents">
+                    <div class="modal-img-contain">
+                        <img src="static/images/ILASTY-GDL.jpg" alt="Ilasty GDL" class="img-modal">
+                    </div>
+                    <div class="modal-description">
+                        <p class="style-desc">Ilasty Gold Leather Elasticated Front Strap Wedge Sandals</p>
+                        <p class="style-code">ILASTY GDL</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class ="img-container">
+                  <img src="static/images/PICCADILLY-CIRCUS-WTL.jpg" alt="Piccadilly Circus WTL" class="btn img-style">
+            </div>
+            <div class ="modal style-modal">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-contents">
+                    <div class="modal-img-contain">
+                        <img src="static/images/PICCADILLY-CIRCUS-WTL.jpg" alt="Piccadilly Cicus WTL" class="img-modal">
+                    </div>
+                    <div class="modal-description">
+                        <p class="style-desc">Piccadilly Circus White Leather Flatform Trainers</p>
+                        <p class="style-code">PICCADILLY CIRCUS WTL</p>
+                    </div>
+                </div>
+            </div> 
+            
+        </div>
+        
+        <!--
+        <div class="placeholder">
+            <img class="place-image" src="static/images/backgrounds/ss23-background-desktop.jpg" alt="SS23 Arriving Soon">
+        </div>
+        <div class="m-placeholder">
+            <img class="m-place-image" src="static/images/backgrounds/ss23-background-mobile.jpg" alt="SS23 Arriving Soon">
+        </div>
+        -->
       
       <!--
       <div id="home-contain">
