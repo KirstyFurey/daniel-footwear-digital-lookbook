@@ -3,6 +3,7 @@
 const btns = document.getElementsByClassName('btn'); // GET ANY ELEMENT WITH A CLASS OF BTN FOR MODAL
 const close = document.getElementsByClassName('close'); // GET ANY ELEMENT WITH CLASS OF CLOSE
 const modals = document.getElementsByClassName('modal'); // GET ANY ELEMENT WITH CLASS OF MODAL
+const body = document.querySelector("body"); //GET THE BODY ELEMENT
 
 //OPEN AND CLOSE MULTIPLE MODALS
 //WORKS BY INDEXING THE MODAL AND BTN CLASSES SO CLICKING ON THE 3RD ELEMENT WITH A BTN CLASS OPENS THE 3RD ELEMENT WITH THE MODAL CLASS
@@ -23,6 +24,14 @@ window.onclick = (e) => {
         }
     });
 };
+/*
+const scroll = () => {
+    if (modals.style.display === 'block') {
+        body.style.overflow = 'hidden';
+    }
+}
+
+setTimeout(scroll(1000));
 /*
 const createStyle = () => {
     styles.forEach(style => {
