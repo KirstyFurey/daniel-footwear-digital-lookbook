@@ -33,7 +33,7 @@
 .close-div {
 	display: flex;
 	justify-content: center;
-	margin-top: 10px;
+	margin: 10px;
 }
 
 .style-modal {
@@ -64,14 +64,14 @@
 
 .modal-match {
     background-color: #f7f7f7;
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	padding: 20px 0px 5px 0px;
 }
 
 .match-item {
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	object-fit: contain;
 }
 
@@ -84,7 +84,7 @@
 	background-color: #f7f7f7;
     overflow-y: auto;
     align-items: flex-start;
-    width: 95vw;
+    max-width: 95vw;
 }
 
 .modal-description {
@@ -150,7 +150,7 @@ img:hover {
 	.modal-contents {
 		flex-direction: column;
 		align-items: center;
-        height: 85vh;
+        max-height: 85vh;
         width: auto;
 	}
 	
@@ -175,16 +175,17 @@ img:hover {
     
     .modal-match {
         background-color: #f7f7f7;
-        width: 200px;
+        width: 300px;
         height: 200px;
     }
-
+    /*
     .match-item {
         width: 200px;
         height: 200px;
         object-fit: contain;
     }
-	
+	*/
+    
 	.modal-description {
 		height: auto;
 		width: 260px;
