@@ -33,7 +33,7 @@
 .close-div {
 	display: flex;
 	justify-content: center;
-	/*margin-top: 20px;*/
+	margin-top: 40px;
 }
 
 .style-modal {
@@ -149,9 +149,13 @@ img:hover {
 	.modal-contents {
 		flex-direction: column;
 		align-items: center;
-        height: 95vh;
+        height: 85vh;
 	}
 	
+    .close-div {
+        margin-top: 10px;
+    }
+    
 	.modal-img-contain {
         /*margin-top: 20px;*/
         background-color: #f7f7f7;
