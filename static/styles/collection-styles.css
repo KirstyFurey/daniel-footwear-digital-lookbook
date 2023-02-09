@@ -62,6 +62,19 @@
 	object-fit: contain;
 }
 
+.modal-match {
+    background-color: #f7f7f7;
+	width: 100px;
+	height: 100px;
+	padding: 20px 0px 5px 0px;
+}
+
+.match-item {
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+}
+
 .modal-contents {
 	position: absolute;
 	top: 50%;
