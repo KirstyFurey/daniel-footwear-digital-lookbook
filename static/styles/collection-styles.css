@@ -33,7 +33,7 @@
 .close-div {
 	display: flex;
 	justify-content: center;
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 .style-modal {
@@ -83,7 +83,8 @@
 	display: flex;
 	background-color: #f7f7f7;
     overflow-y: auto;
-    align-items: flex-start
+    align-items: flex-start;
+    width: 95vw;
 }
 
 .modal-description {
@@ -150,6 +151,7 @@ img:hover {
 		flex-direction: column;
 		align-items: center;
         height: 85vh;
+        width: auto;
 	}
 	
     .close-div {
@@ -160,12 +162,13 @@ img:hover {
         /*margin-top: 20px;*/
         background-color: #f7f7f7;
         width: 300px;
-        height: 430px;
+        height: 350px;
+        padding: 0px 20px;
     }
 
     .img-modal {
         width: 300px;
-        height: 430px;
+        height: 350px;
         object-fit: contain;
     }
     
@@ -185,7 +188,7 @@ img:hover {
 	.modal-description {
 		height: auto;
 		width: 260px;
-		padding: 20px 40px;
+		padding: 0px 40px 20px 40px;
 		margin-top: 0px;
 		word-wrap: break-word;
 	}
