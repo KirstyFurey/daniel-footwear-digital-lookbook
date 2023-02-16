@@ -172,13 +172,13 @@ img:hover {
         object-fit: contain;
     }
     
-    
+    /*
     .modal-match {
         background-color: #f7f7f7;
-        width: 300px;
+        width: 200px;
         height: 200px;
     }
-    /*
+
     .match-item {
         width: 200px;
         height: 200px;
