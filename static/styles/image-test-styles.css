@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.image-test-contain {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.img-test-contain {
+	width: 599px;
+	height: 599px;
+	object-fit: contain;
+}
+
+.img-test {
+	width: 599px;
+	height: 599px;
+	object-fit: contain;
+}
