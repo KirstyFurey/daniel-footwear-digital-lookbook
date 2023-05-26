@@ -1,19 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.image-test-contain {
+/*block container*/
+.image-test {
 	width: 100%;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center
 }
-
+/*image container*/
 .img-test-contain {
 	width: 599px;
 	height: 599px;
 	object-fit: contain;
 }
 
+/*the image*/
 .img-test {
 	width: 599px;
 	height: 599px;
