@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	color: black;
 	margin: none;
 	padding: none;
@@ -32,10 +32,12 @@ nav {
 	letter-spacing: 0.2em;
 	font-weight: 900;
 	background-color: white;
+	z-index: 50;
 }
 
 #m-nav {
     display: none;
+	z-index: 50;
 }
 
 #nav-logo-items {
@@ -59,7 +61,7 @@ nav a {
 	color: black;
 }
 
-nav a:hover {
+.collections a:hover {
     cursor: pointer;
     transition: all 0.2s ease;
 	color: hsl(0, 0%, 60%);
@@ -85,7 +87,7 @@ nav a:hover {
 #m-nav {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 50; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */

@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+ @font-face { 
+	 font-family: ScatterInk; src: url('ScatterInk.ttf'); 
+} 
 
 #style-container {
 	display: flex;
@@ -13,11 +16,56 @@
 .img-container {
     width: 200px;
     height: 260px;
-    margin: 10px 5px 0px;
+    margin: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
 	background-color: #f7f7f7;
+}
+
+.overlay {
+    width: 200px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	cursor: pointer;
+}
+
+.o-name {
+    width: 200px;
+    height: 260px;
+	opacity: 1;
+	z-index: 3;
+	color: white;
+	position: absolute;
+	font-size: 3.5em;
+	line-height: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+	font-family: ScatterInk;
+	text-shadow: 2px 2px #b3b1b5;
+}
+
+.o-col {
+    width: 200px;
+    height: 260px;
+	background-color: black;
+	position: relative;
+	z-index: 2;
+	opacity: 0.15;
+}
+
+.product {
+    width: 200px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+	z-index: 1;
 }
 
 .img-style {
@@ -39,7 +87,7 @@
 .style-modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 4; /* Sit on top */
     left: 0;
     top: 0;
     width: 100vw; /* Full width */
@@ -111,23 +159,14 @@
 	font-weight: 700;
 	font-size: 7pt;
 }
-/*
-img {
-    transition:transform 0.25s ease;
+
+.pdf-contain {
+	background-color: #f7f7f7;
+	width: 400px;
+	height: 520px;
+	padding: 20px 20px;
 }
 
-img:hover {
-    -webkit-transform:scale(3); 
-    transform:scale(3);
-}
-*/
-/*
-@media only screen and (min-width: 900px) {
-	.modal-contents {
-		align-items: center;
-	}
-}
-*/
 @media only screen and (max-width: 900px) {
 	
 	#style-container {
@@ -143,6 +182,11 @@ img:hover {
         align-items: center;
         background-color: #f7f7f7;
     }
+	
+	.overlay, .o-col, .o-name, .product {
+        width: 150px;
+        height: 210px;
+	}
 
     .img-style {
         width: 150px;
@@ -175,20 +219,6 @@ img:hover {
         object-fit: contain;
     }
     
-    /*
-    .modal-match {
-        background-color: #f7f7f7;
-        width: 200px;
-        height: 200px;
-    }
-
-    .match-item {
-        width: 200px;
-        height: 200px;
-        object-fit: contain;
-    }
-	*/
-    
 	.modal-description {
 		height: auto;
 		width: 260px;
@@ -196,4 +226,12 @@ img:hover {
 		margin-top: 0px;
 		word-wrap: break-word;
 	}
+	
+	.pdf-contain {
+        margin-top: 30px;
+        background-color: #f7f7f7;
+        width: 300px;
+        height: 350px;
+        padding: 20px 8px;
+    }
 }

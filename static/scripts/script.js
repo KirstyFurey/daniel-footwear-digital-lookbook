@@ -24,39 +24,7 @@ window.onclick = (e) => {
         }
     });
 };
-/*
-const scroll = () => {
-    if (modals.style.display === 'block') {
-        body.style.overflow = 'hidden';
-    }
-}
 
-setTimeout(scroll(1000));
-/*
-const createStyle = () => {
-    styles.forEach(style => {
-        const styleDiv = createElem('div', 'img-container');
-        const getStyleContainer = document.getElementById('style-container');
-        getStyleContainer.appendChild(styleDiv);
-        const styleImage = createElem('img', 'btn');
-        styleImage.classList.add('btn', 'img-style');
-        styleImage.src = style.img;
-        styleDiv.appendChild(styleImage);
-    })
-}
-
-// for creating an element
-const createElem = (tagName, className) => {
-    const element = document.createElement(tagName);
-    element.setAttribute('class', className);
-    return element;
-}
-
-window.onload = () => {
-    createStyle();
-}
-
-*/
 
 
 
