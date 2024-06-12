@@ -158,6 +158,7 @@
 	letter-spacing: 0.15em;
 	font-weight: 700;
 	font-size: 7pt;
+	text-transform: uppercase;
 }
 
 .pdf-contain {
