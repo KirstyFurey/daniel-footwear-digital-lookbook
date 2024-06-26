@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
- @font-face { 
+ /*@font-face { 
 	 font-family: ScatterInk; src: url('ScatterInk.ttf'); 
 } 
-
+*/
 #style-container {
 	display: flex;
 	margin: 50px;
@@ -44,10 +44,12 @@
     justify-content: center;
     align-items: center;
 	text-align: center;
-	font-family: ScatterInk;
-	text-shadow: 2px 2px #b3b1b5;
+	/*font-family: ScatterInk;*/
+	font-family: "lindsey-signature", sans-serif;
+	font-weight:500;
+	text-shadow: 2px 1px #b3b1b5;
 	line-height: 1em;
-	transform: rotate(-15deg);
+	transform: rotate(-5deg);
 }
 
 .o-col {
